@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>专业八字命书分析</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="info-chart-container">
+                <div class="personal-info">
+                    <div class="titles">
+                        <h1 class="main-title"><span class="title-icon">📖</span> 八字命书</h1>
+                        <p class="subtitle">基于传统命理与现代视角的人生解读</p>
+                    </div>
+                    <div class="personal-details">
+                        <h3>个人命盘信息</h3>
+                        <p><strong><span class="label-tag label-name">姓名</span></strong> 于宗召</p>
+                        <p><strong><span class="label-tag label-gender">性别</span></strong> 男</p>
+                        <p><strong><span class="label-tag label-solar">阳历</span></strong> 1987年4月26日 23:50</p>
+                        <p><strong><span class="label-tag label-lunar">阴历</span></strong> 丁卯(兔)年 三月廿九 子时</p>
+                        <p><strong><span class="label-tag label-birthplace">出生地</span></strong> 中国·河南·洛阳 (真太阳时)</p>
+                    </div>
+                </div>
+                <div class="bazi-chart">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="pillar-label">年柱</th>
+                                <th class="pillar-label">月柱</th>
+                                <th class="pillar-label">日柱</th>
+                                <th class="pillar-label">时柱</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span class="shi-shen-tag fire-bg">食神</span></td>
+                                <td><span class="shi-shen-tag wood-bg">劫财</span></td>
+                                <td><span class="day-master-label">元男</span></td>
+                                <td><span class="shi-shen-tag fire-bg">伤官</span></td>
+                            </tr>
+                            <tr>
+                                <td><span class="stem fire">丁<span class="element-icon">🔥</span></span></td>
+                                <td><span class="stem wood">甲<span class="element-icon">🌳</span></span></td>
+                                <td><span class="stem wood">乙<span class="element-icon">🌳</span></span></td>
+                                <td><span class="stem fire">丙<span class="element-icon">🔥</span></span></td>
+                            </tr>
+                            <tr>
+                                <td><span class="branch wood">卯<span class="element-icon">🌳</span></span></td>
+                                <td><span class="branch earth">辰<span class="element-icon">🧱</span></span></td>
+                                <td><span class="branch fire">巳<span class="element-icon">🔥</span></span></td>
+                                <td><span class="branch water">子<span class="element-icon">💧</span></span></td>
+                            </tr>
+                            <tr>
+                                <td><div class="hidden-stems"><span class="wood">乙 <span class="element-icon">🌳</span> 比肩</span></div></td>
+                                <td><div class="hidden-stems"><span class="earth">戊 <span class="element-icon">🧱</span> 正财</span><br><span class="wood">乙 <span class="element-icon">🌳</span> 比肩</span><br><span class="water">癸 <span class="element-icon">💧</span> 偏印</span></div></td>
+                                <td><div class="hidden-stems"><span class="fire">丙 <span class="element-icon">🔥</span> 伤官</span><br><span class="metal">庚 <span class="element-icon">⚔️</span> 正官</span><br><span class="earth">戊 <span class="element-icon">🧱</span> 正财</span></div></td>
+                                <td><div class="hidden-stems"><span class="water">癸 <span class="element-icon">💧</span> 偏印</span></div></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </header>
+
+        <!-- Tab Navigation -->
+        <nav class="tab-navigation">
+            <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation"><a href="#minggong" class="active" role="tab" aria-selected="true">命主概论</a></li>
+                <li role="presentation"><a href="#score" role="tab" aria-selected="false">五行旺衰</a></li>
+                <li role="presentation"><a href="#personality" role="tab" aria-selected="false">性格分析</a></li>
+                <li role="presentation"><a href="#family" role="tab" aria-selected="false">六亲关系</a></li>
+                <li role="presentation"><a href="#marriage" role="tab" aria-selected="false">婚姻情感</a></li>
+                <li role="presentation"><a href="#career" role="tab" aria-selected="false">事业财运</a></li>
+                <li role="presentation"><a href="#health" role="tab" aria-selected="false">健康建议</a></li>
+                <li role="presentation"><a href="#luck-cycle" role="tab" aria-selected="false">大运流年</a></li>
+            </ul>
+        </nav>
+
+        <div class="main-content">
+            <main class="center-content tab-content">
+                <section id="minggong" class="content-section tab-pane active" role="tabpanel">
+                    <h2>✨ 命主概论：解锁你的人生密码 ✨</h2>
+                    <p><strong>嗨，于宗召！👋 让我们一起看看你的专属人生剧本：</strong></p>
+                    <ul>
+                        <li>你的"本命英雄"：<strong class="wood">乙木</strong> 🌳 (像藤蔓一样柔韧灵动！)</li>
+                        <li>出生日期：阳历 1987.4.26 23:50 (记得是洛阳真太阳时哦~)</li>
+                        <li>农历生日：丁卯兔年 三月廿九 子时 🐇</li>
+                        <li>天生分量：<strong class="useful">三两七钱</strong> ⚖️ (意味着什么？下面有解读👇)</li>
+                    </ul>
+
+                    <h3>📜 格局解密：你的核心配置</h3>
+                    <p>你是乙木人，自带"柔韧灵动"气质，聪明有担当！💪 你出生在春天（辰月），这时候<strong class="wood">木</strong>的力量较强，而且有<strong class="fire">火</strong>的能量相助。这形成了八字里一个有趣的配置——<strong class="favorable">"身旺用印"</strong>。</p>
+                    <p>"印星"就是<strong class="water">水</strong>（可以理解为"智慧星"💧），由你命盘里的<strong class="water">子水</strong>和藏干中的<strong class="water">癸水</strong>组成，给你带来智慧和贵人相助。同时，你的命盘中有<strong class="fire">丁火食神</strong>和<strong class="fire">丙火伤官</strong>，代表才华和创造力，这让你在表达和创新方面有独特优势。</p>
+                    <p>这意味着，你的人生路上会有不少展示才华的机会，但也需要用<strong class="water">水</strong>的智慧来平衡和引导。你适合在需要创意和表达的领域发挥才能，同时通过学习和思考来提升自己！</p>
+
+                    <h3>💡 五行能量站 & 幸运密码</h3>
+                    <p>你的命盘平衡是关键！因为<strong class="wood">木</strong>和<strong class="fire">火</strong>较旺，所以你需要"平衡包"⛽️：</p>
+                    <ul>
+                        <li><strong class="favorable">最重要的"幸运星" (用神)：水 (印星)</strong> 💧 代表智慧、学习、思考、贵人（特别是妈妈或女性长辈）的帮助。多动脑、多学习、多听长辈意见，能帮你平衡过旺的火气！</li>
+                        <li><strong class="useful">有帮助的"能量" (喜神)：土 (财星)</strong> 🧱 代表稳定、财富、实际成果。将你的才华转化为实际成果，让创意落地。</li>
+                        <li><strong class="unfavorable">需要注意的"捣蛋鬼" (忌神)：金 (官杀)</strong> ⚔️ 金会克制你的木气，带来压力和约束。在追求事业和规则时要特别注意方法，别太强硬！</li>
+                        <li><strong class="useful">有点"中立"的能量 (闲神)：木 (比劫)</strong> 🌳 代表朋友、兄弟姐妹、合作伙伴。适当的社交和合作有利，但太多会分散你的能量。</li>
+                    </ul>
+
+                    <h3>⚖️ 称骨歌：三两七钱的秘密</h3>
+                    <blockquote>
+                        <p>"一生衣禄是绵长，离祖出门早主张。" 🌱</p>
+                        <p>"万事由来命不齐，中年还有好运来。" 🚀</p>
+                    </blockquote>
+                    <p>这首歌告诉你：你有独立自主的精神，早早就会有自己的主张和规划。虽然人生有起伏，但中年会有不错的运势！好好积累，抓住机会，就能获得稳定的生活和事业发展！💰</p>
+
+                    <h3>🎯 你的人生通关指南</h3>
+                    <p>简单来说，你的人生主题就是：<strong>"用智慧引导才华，转化为实际成果！"</strong> 你的剧本很有潜力，但需要技巧：</p>
+                    <ol>
+                        <li><strong>多动脑，重学习 (用水)</strong> 🧠：学习！思考！接触水！用智慧平衡你旺盛的创造力和表达欲。</li>
+                        <li><strong>落地为王，求实效 (用土)</strong> 🏗️：把创意转化为实际成果，不要只停留在想法阶段。</li>
+                        <li><strong>心态要稳，不冲动 (修心)</strong>🧘‍♂️：控制情绪波动，不要被一时冲动左右决定。</li>
+                        <li><strong>身体是本钱 (关注健康)</strong> ❤️‍🩹：注意心火过旺！特别是心脏、血压、眼睛。保持充足休息！</li>
+                    </ol>
+                    <p>才华虽多，但方法对了，运气来了，你就能把"才华"变成你的"王冠"！👑 加油！</p>
+                </section>
+
+                <section id="score" class="content-section tab-pane" role="tabpanel">
+                    <h2>📊 你的五行能量 Balance 大揭秘！⚖️</h2>
+                    <p>想知道你天生自带的"金木水火土"能量都是怎么分配的吗？🤔 这就像看你的"出厂设置"，了解能量强弱，才能知道怎么给自己"充电"和"放电"呀！⚡️</p>
+                    <p>下面是一个基于专业算法估算的能量分布表 (记住，分数只是参考，具体还要看组合哦 😉)：</p>
+
+                    <table class="score-table">
+                        <thead>
+                            <tr>
+                                <th>五行 ✨</th>
+                                <th>代表啥 🤔</th>
+                                <th>能量值 (估) 💯</th>
+                                <th>强弱度 💪/😥</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="element-col wood">木 🌳</td>
+                                <td>你自己 / 朋友</td>
+                                <td>~ 118.5</td>
+                                <td class="strength-col strong">较旺 💪</td>
+                            </tr>
+                            <tr>
+                                <td class="element-col fire">火 🔥</td>
+                                <td>才华 / 想法</td>
+                                <td>~ 105.8</td>
+                                <td class="strength-col strong">较旺 🚀</td>
+                            </tr>
+                            <tr>
+                                <td class="element-col earth">土 🧱</td>
+                                <td>财运 / 稳定</td>
+                                <td>~ 75.6</td>
+                                <td class="strength-col weak">偏弱 📉</td>
+                            </tr>
+                            <tr>
+                                <td class="element-col metal">金 ⚔️</td>
+                                <td>事业 / 规则</td>
+                                <td>~ 42.3</td>
+                                <td class="strength-col weak">最弱 😥</td>
+                            </tr>
+                            <tr>
+                                <td class="element-col water">水 💧</td>
+                                <td>学习 / 智慧</td>
+                                <td>~ 68.4</td>
+                                <td class="strength-col weak">偏弱 🥺</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <h3>📈 能量解读 & 关键点 Check! ✅</h3>
+                    <p>根据上面的分数，我们可以得出以下结论：</p>
+                    <ul>
+                        <li><strong>你自己 (<span class="wood">木</span>🌳):</strong> 能量 <strong class="strong">较旺</strong>。这是好事，意味着你有足够的生命力和自我表达能力，但也可能有时过于固执或主观。</li>
+                        <li><strong>才华/想法 (<span class="fire">火</span>🔥):</strong> 能量也 <strong class="strong">较旺</strong>！这让你充满创造力、表达力和热情，但也可能导致情绪波动或冲动。</li>
+                        <li><strong>财运/稳定 (<span class="earth">土</span>🧱):</strong> 能量 <strong class="weak">偏弱</strong>。需要努力将才华转化为实际成果，加强执行力和落地能力。</li>
+                        <li><strong>事业/规则 (<span class="metal">金</span>⚔️):</strong> 能量 <strong class="weak">最弱</strong>。可能对规则和约束不太适应，需要加强自律和组织能力。</li>
+                        <li><strong>学习/智慧 (<span class="water">水</span>💧):</strong> 能量 <strong class="weak">偏弱</strong>。虽有聪明才智，但需要更多沉淀和思考，避免才华流于表面。</li>
+                    </ul>
+
+                    <h3>🌟 你的"神助攻" & "挑战项" ⚠️</h3>
+                    <p>简单来说，你命盘里的五行能量就像一个团队，有的帮你，有的给你添堵：</p>
+                    <ul>
+                        <li><strong class="favorable">🥇 超级 MVP (用神)：水 💧</strong>
+                            <ul>
+                                <li><strong>为啥给力？</strong> 它能平衡你过旺的<strong class="fire">火</strong>（才华）和<strong class="wood">木</strong>（自己），让你的才智更加深沉，情绪更加稳定，避免"华而不实"。</li>
+                                <li><strong>代表啥？</strong> 学习、思考、智慧、印章（权力/文凭）、贵人（尤其长辈/母亲）、休息、滋养。</li>
+                            </ul>
+                        </li>
+                        <li><strong class="useful">🥈 得力队友 (喜神)：土 🧱</strong>
+                            <ul>
+                                <li><strong>为啥给力？</strong> 它能帮你把创意和才华转化为实际的成果和财富，让你的付出有回报，不至于"竹篮打水一场空"。</li>
+                                <li><strong>代表啥？</strong> 财富、稳定、实际成果、踏实、伴侣、物质享受。</li>
+                            </ul>
+                        </li>
+                        <li><strong class="unfavorable">🥉 主要挑战 (忌神)：金 ⚔️</strong>
+                            <ul>
+                                <li><strong>为啥头疼？</strong> <strong class="metal">金</strong>会克制你的<strong class="wood">木</strong>，带来压力和约束，让你感到不自由。</li>
+                                <li><strong>代表啥？</strong> 规则、约束、压力、纪律、权威、事业挑战、小人是非。</li>
+                            </ul>
+                        </li>
+                        <li><strong class="useful">🤔 中立观察员 (闲神)：木 🌳</strong>
+                            <ul>
+                                <li><strong>为啥中立？</strong> 它是你自己的能量，已经较旺，不需要特别补充，但也不是坏事。适度的社交和合作有利，但太多会分散你的能量。</li>
+                                <li><strong>代表啥？</strong> 朋友、兄弟姐妹、同事、团队、竞争与合作。</li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <h3>💡 能量平衡小 Tips ✨</h3>
+                    <p>知道了自己的能量配置，就可以"对症下药"啦！总的原则就是：<strong class="favorable">增强 水💧 和 土🧱</strong>，<strong class="unfavorable">管理和疏导 木🌳 和 火🔥</strong> 的过旺能量。</p>
+                    <ul>
+                        <li><strong>多"补水" 💧：</strong> 学习、思考、冥想、接触水景、穿戴蓝黑色饰品。</li>
+                        <li><strong>多"固土" 🧱：</strong> 培养执行力、落实计划、理财规划、穿戴黄色饰品。</li>
+                        <li><strong>适当"泄火" 🔥：</strong> 控制情绪波动，不冲动，保持冷静思考的习惯。</li>
+                        <li><strong>巧"用木" 🌳：</strong> 将精力用在创造性工作上，避免过度固执或主观。</li>
+                    </ul>
+                    <p>记住，五行能量是流动的，了解自己的基础配置，结合大运流年，就能更好地把握人生节奏啦！😉</p>
+                </section>
+
+                 <section id="personality" class="content-section tab-pane" role="tabpanel">
+                    <h2>🤔 探秘真实的你：性格深度剖析 🌳</h2>
+                    <p>哈喽！我们来聊聊你的性格吧！你是<strong class="wood">乙木</strong>命🌲，天生就像一棵柔韧灵活的藤蔓，灵动、有活力，心里总有一股创造的冲动！</p>
+                    <p>不过呢，你的"出厂设置"里，<strong class="fire">火</strong>的能量也很足，这让你的性格充满了热情和表现力。同时，<strong class="water">水</strong>和<strong class="earth">土</strong>的能量相对较弱，这意味着你可能需要更多的沉淀和落地。这种配置，让你的性格充满了创造力和表达欲，但也有一些需要平衡的地方！</p>
+
+                    <h3>✨ 你的闪光点 & 超能力 ✨</h3>
+                    <ul>
+                        <li><strong>创意无限</strong> 💡：<strong class="fire">食神伤官</strong>的加持让你思维活跃，点子多，有独特的创造力和表达能力。你可能在艺术、设计、文案、演讲等需要创意的领域有天赋！</li>
+                        <li><strong>热情四溢</strong> 🔥：你天生热情洋溢，善于表达，容易激发他人的热情，是个天然的"气氛组"成员。你的热情和活力能感染周围的人！</li>
+                        <li><strong>适应力强</strong> 🌿：<strong class="wood">乙木</strong>的特质让你像藤蔓一样柔韧灵活，能够适应各种环境和变化，不容易被困难打倒。</li>
+                        <li><strong>人缘不错</strong> 👫：你的表达力和亲和力让你容易受到欢迎，交友广泛，能够在社交场合如鱼得水。</li>
+                    </ul>
+
+                    <h3>⚠️ 可能需要面对的小挑战 ⚠️</h3>
+                    <ul>
+                        <li><strong>情绪波动"小火山"</strong> 🌋：<strong class="fire">火</strong>旺的特点可能让你情绪波动较大，容易冲动，有时候会因为一时兴起做出决定，事后又后悔。</li>
+                        <li><strong>"三分钟热度" & "多开花少结果"</strong> 🥀：创意和想法很多，但可能缺乏耐心和执行力，导致很多计划半途而废，难以坚持到底。</li>
+                        <li><strong>缺乏深度思考</strong> 📚：<strong class="water">水</strong>偏弱，可能导致你思考不够深入，容易停留在表面，缺乏系统性和理论性。</li>
+                        <li><strong>实际效果欠佳</strong> 🧱：<strong class="earth">土</strong>偏弱，可能导致你的创意难以落地，或者缺乏实际成果，理想与现实有差距。</li>
+                    </ul>
+
+                    <h3>🎭 其他性格"彩蛋" 🥚</h3>
+                    <ul>
+                        <li><strong>独立自主 (乙木特质)</strong> 🌱：你有很强的自主意识，不喜欢被约束，渴望自由发展的空间，喜欢按自己的方式做事。</li>
+                        <li><strong>灵活变通 (乙木特质)</strong> 🧩：你思维灵活，善于变通，能够找到解决问题的创新方法，不拘泥于常规。</li>
+                        <li><strong>艺术天赋 (食神伤官)</strong> 🎨：你可能在艺术、文学、音乐等领域有特殊的天赋，有表达自我的强烈欲望。</li>
+                        <li><strong>直觉敏锐 (火木组合)</strong> 🔮：你的直觉往往很准，能够快速捕捉到事物的本质或机会，有时候"第一感觉"比长时间思考更准确。</li>
+                    </ul>
+
+                    <h3>💡 成长与平衡小锦囊 💡</h3>
+                    <p>了解自己是为了更好地成长！给你的小建议：</p>
+                    <ol>
+                        <li><strong>培养"深度"</strong> 🧠：多阅读、学习、思考，不要只停留在表面的热闹，培养自己的深度思考能力和知识储备。</li>
+                        <li><strong>提升"执行力"</strong> 🏃‍♂️：设定明确的目标和计划，分解成小步骤，逐步实现，避免"虎头蛇尾"。</li>
+                        <li><strong>控制"情绪波动"</strong> 😌：学习情绪管理技巧，比如冥想、深呼吸，不要被一时的情绪左右重要决定。</li>
+                        <li><strong>重视"实际成果"</strong> 🏆：将创意转化为实际的产品或成果，注重结果而非过程，让才华有具体的体现。</li>
+                    </ol>
+                    <p>你就像一棵充满活力的藤蔓，灵活而富有创造力！学会平衡热情与沉稳，创意与落地，你会活得更精彩、更有成就感！🌟</p>
+                </section>
+
+                 <section id="family" class="content-section tab-pane" role="tabpanel">
+                    <h2>👨‍👩‍👧‍👦 你的家庭图谱 & 六亲缘分揭秘 🗺️</h2>
+                    <p>想知道你和生命中最重要的人——家人们的缘分深浅吗？八字就像一张关系地图，我们来一起看看你和他们的互动模式吧！(P.S. 这是基于宫位和十神能量的推测哦~)</p>
+
+                    <h3>🌳 长辈缘分 (看年柱：丁<span class="element-icon">🔥</span>卯<span class="element-icon">🌳</span>)</h3>
+                    <ul>
+                        <li><strong class="fire">丁火食神 + 卯木比肩：</strong>和爷爷奶奶或家族长辈的关系可能比较活跃和温暖。你可能从小就展现出聪明才智，受到长辈的喜爱和鼓励。长辈可能会支持你的才艺发展和创意表达。</li>
+                        <li><strong>隐藏的小确幸：</strong>年支<strong class="wood">卯</strong>里藏着<strong class="wood">乙木(比肩)</strong>，说明你和长辈之间有一定的相似性，容易产生共鸣，也能得到他们的理解和支持。</li>
+                    </ul>
+
+                    <h3>🏠 父母 & 兄弟姐妹 (看月柱：甲<span class="element-icon">🌳</span>辰<span class="element-icon">🧱</span>)</h3>
+                    <ul>
+                        <li><strong class="wood">甲木劫财 + 辰土正财：</strong>这一组合信息量很大哦！
+                            <ul>
+                                <li><strong>兄弟姐妹/同辈：</strong><strong class="wood">劫财</strong>意味着你和兄弟姐妹或同龄朋友之间，既有情谊也容易存在竞争关系，可能会为了资源或关注而有一些小摩擦。</li>
+                                <li><strong>家庭氛围/父母：</strong>月柱地支是<strong class="earth">辰土</strong>，代表财星，暗示你的原生家庭可能比较注重实际和物质层面，父母可能希望你能够稳定发展，有实际的成就。</li>
+                                <li><strong>母爱光环：</strong>月柱的<strong class="earth">辰土</strong>里藏着<strong class="water">癸水(偏印)</strong>，代表你的母亲或家族中的女性长辈，温柔而有智慧，能在你需要时提供情感支持和建议！❤️</li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <h3>❤️ 你的另一半 (看日支夫妻宫：巳<span class="element-icon">🔥</span>)</h3>
+                    <ul>
+                        <li><strong>夫妻宫坐伤官：</strong>你未来（或现在）的另一半，很可能是一个有才华、有个性、思维活跃的人！😎 <strong class="fire">巳火伤官</strong>落在夫妻宫，这是影响你婚姻关系的核心信息。</li>
+                        <li><strong>Ta的特点：</strong>聪明、有创意、表达能力强、个性鲜明，可能在艺术、文化、创意等领域有所建树。相处起来，你可能会被Ta的才华和魅力所吸引，但也可能因为两人都比较有主见而产生一些小摩擦。</li>
+                        <li><strong>关系模式：</strong>你们的关系可能充满了创意和火花，共同话题多，能够互相激发灵感。但也需要注意，两个都有才华和个性的人在一起，需要学会相互欣赏和包容，避免因为各自的想法太强而产生冲突。</li>
+                        <li><strong>潜在连接：</strong>巳火中藏有<strong class="metal">庚金(正官)</strong>，暗示对方可能在事业上有一定的成就或规范性，能够在某种程度上平衡你的创意天马行空，帮助你更好地实现想法。</li>
+                    </ul>
+
+                    <h3>👶 可爱的宝宝们 (看时柱：丙<span class="element-icon">🔥</span>子<span class="element-icon">💧</span>)</h3>
+                    <ul>
+                        <li><strong class="fire">丙火伤官 + 子水正印：</strong>时柱代表子女和晚年运。</li>
+                        <li><strong>子女个性：</strong><strong class="fire">伤官</strong>在子女宫，暗示你的孩子可能也很聪明、有创意、思维活跃，可能在学习和创造方面表现出色。但也可能有点任性或者不太喜欢被约束。</li>
+                        <li><strong>智慧与贵人：</strong><strong class="water">子水正印</strong>代表孩子可能很有智慧，思考深入，也可能在你的晚年成为你的贵人，给你带来支持和帮助。</li>
+                        <li><strong>晚年生活：</strong>时柱有<strong class="water">正印</strong>，意味着你的晚年生活可能比较平稳舒适，有机会继续学习和思考，精神生活丰富。</li>
+                    </ul>
+
+                    <h3>💡 家庭和谐相处指南 💡</h3>
+                    <ol>
+                        <li><strong>沟通是桥梁：</strong>尤其是和伴侣、孩子相处时，多表达、多倾听、多理解、少指责。看见彼此的需求是第一步。</li>
+                        <li><strong>学会"深度连接"：</strong>你自己创意和表达能力强，但有时可能缺乏深度。在家庭关系中，尝试更深入地了解家人的内心世界，不只是停留在表面的热闹。</li>
+                        <li><strong>将"创意"用在家庭上：</strong>利用你的创造力和表达能力，为家庭生活增添乐趣和温馨，比如策划家庭活动、制作小惊喜等。</li>
+                        <li><strong>平衡"自我"与"奉献"：</strong>既保持自己的独立个性，又要学会为家人付出和妥协，找到二者的平衡点。</li>
+                    </ol>
+                    <p>家人是我们最宝贵的财富，用心经营，你会收获满满的爱与支持！💖</p>
+                </section>
+
+                <section id="marriage" class="content-section tab-pane" role="tabpanel">
+                    <h2>💖 你的专属爱情地图 & 婚姻导航 🧭</h2>
+                    <p>感情这件小事，既甜蜜又复杂！从你的八字来看，爱情剧本主要由日柱（特别是夫妻宫<strong class="fire">巳火</strong>）和代表伴侣的<strong class="fire">伤官（火）</strong>共同谱写。来，一起看看你的爱情密码吧！🔑</p>
+
+                    <h3>🏰 夫妻宫探秘：你的另一半画像 (日支 <strong class="fire">巳火 伤官</strong>)</h3>
+                    <ul>
+                        <li><strong>核心信息：</strong>你的夫妻宫（就是你日柱地支那个<strong class="fire">巳火</strong>）坐着<strong class="fire">伤官</strong>！这可是影响你婚姻质量和伴侣特质的关键信号灯！🚦</li>
+                        <li><strong>Ta可能是这样的：</strong>大概率是一位聪明、有才华、思维活跃、表达能力强的人！😎 有创意、有个性、可能在艺术、文化、创意等领域有所建树。但也可能因为太有主见，显得有些任性或者不太喜欢被约束。</li>
+                        <li><strong>关系模式预警 🚨：</strong><strong class="fire">伤官</strong>坐夫妻宫，意味着你们的关系可能充满了创意和火花，共同话题多，能够互相激发灵感。但也需要注意，两个都有才华和个性的人在一起，可能会因为各自的想法太强而产生冲突。</li>
+                        <li><strong>潜在优点 👍：</strong>巳火中藏有<strong class="metal">庚金(正官)</strong>，暗示对方可能在事业上有一定的成就或规范性，能够在某种程度上平衡你的创意天马行空，帮助你更好地实现想法。</li>
+                    </ul>
+
+                    <h3>💍 "伴侣本"揭秘：伤官的甜蜜负担</h3>
+                    <ul>
+                        <li><strong>伤官=才华/个性：</strong>在八字里，<strong class="fire">伤官（火）</strong>通常代表才华、创意、表达能力和个性。你的命盘里有<strong class="fire">丁火食神</strong>和<strong class="fire">丙火伤官</strong>，都属于才华星。</li>
+                        <li><strong>为啥是"甜蜜"？😊：</strong>关键来了！你的命盘里，<strong class="fire">火</strong>的能量较旺，这意味着你自己就很有才华和个性。当你遇到同样有才华和个性的伴侣时，你们能够在思想上产生共鸣，互相欣赏，共同创造。</li>
+                        <li><strong>为啥是"负担"？😩：</strong>但同时，两个都很有主见的人在一起，也容易因为想法不同而产生冲突。特别是当你们都想要表达自己、坚持自己的观点时，可能会出现"两虎相争"的局面。</li>
+                        <li><strong>意味着什么？</strong> 这暗示着，你的感情生活可能会比较丰富多彩，充满创意和火花，但也可能需要更多的包容和理解，学会欣赏彼此的不同，而不是试图改变对方。</li>
+                    </ul>
+
+                    <h3>💡 理想型指引：你需要什么样的 Ta？</h3>
+                    <ul>
+                        <li><strong>能量互补型选手：</strong>你自己<strong class="fire">火</strong>和<strong class="wood">木</strong>能量较旺，最需要的是能给你"沉淀"和"落地"的能量。谁能担此重任？当然是你的<strong class="favorable">喜用神：水💧 和 土🧱</strong>！</li>
+                        <li><strong>灵魂伴侣特质：</strong>所以，理论上，如果能遇到八字里<strong class="favorable">水、土</strong>能量比较旺的伴侣，或者性格像<strong class="favorable">水</strong>一样深沉、智慧、善于思考，像<strong class="favorable">土</strong>一样踏实、稳重、注重实际的 Ta，会让你的感情之路更加平衡，能够既有创意的火花，又有深度的连接。</li>
+                    </ul>
+
+                    <h3>💑 幸福相处小妙招 (敲黑板！)</h3>
+                    <ol>
+                        <li><strong>学会"深度倾听" (活用<strong class="favorable">水</strong>能量) 🗣️：</strong>不要只顾着表达自己，也要学会倾听对方的想法和感受，理解背后的需求和情绪，建立更深层次的连接。</li>
+                        <li><strong>从"创意"到"行动"：</strong>将你们的创意和想法转化为实际的行动和成果，共同规划和实现目标，让感情有更实际的载体和表现。</li>
+                        <li><strong>欣赏"不同"，而非改变：</strong>学会欣赏彼此的不同，将其视为互补而非冲突，用包容和理解代替批评和控制。</li>
+                        <li><strong>建立"情感储蓄"：</strong>平时多积累一些美好的回忆和感受，在遇到矛盾和困难时，这些"情感储蓄"能帮助你们渡过难关。</li>
+                    </ol>
+
+                    <h3>⏳ 缘分何时来敲门？</h3>
+                    <p>一般来说，当你走<strong class="favorable">水 (印)</strong> 或 <strong class="favorable">土 (财)</strong> 旺的大运或流年时，自身能量更加平衡，更容易遇到正缘或改善关系。或者遇到<strong class="metal">金 (官)</strong> 的年份，能够给你带来一些规范和稳定，也有利于感情的发展。</p>
+
+                    <p><strong>💌 写在最后：</strong> 爱情和婚姻都是需要用心经营的旅程。了解自己的命盘特点，不是为了认命，而是为了更好地扬长避短！正视挑战，用对方法，你也能收获属于自己的幸福！加油！💪❤️</p>
+                </section>
+
+                <section id="career" class="content-section tab-pane" role="tabpanel">
+                    <h2>💼 事业起飞 & 财富密码全攻略 💰</h2>
+                    <p>聊到搞事业和赚钱，你的命盘简直是"才华与实践并存"的典范！😎 核心驱动力来自旺盛的<strong class="fire">火(食伤)</strong>，给你带来创意和表达能力，但也需要<strong class="earth">财星(土)</strong>和<strong class="water">印星(水)</strong>的配合。我们来拆解一下你的职场生存法则和吸金秘籍！</p>
+
+                    <h3>🚀 事业赛道怎么选？(你的天赋点)</h3>
+                    <ul>
+                        <li><strong>天生适合"创意"领域 💡：</strong>强大的<strong class="fire">食伤</strong>能量，让你特别适合需要<strong>创造力、表达能力、创新思维</strong>的领域。想想那些能够展现才华的职业！
+                            <ul>
+                                <li><strong>创意设计路线：</strong>广告创意、UI/UX设计、平面设计、产品设计、室内设计... 只要能发挥创意，都很有潜力！🎨</li>
+                                <li><strong>文化传媒流：</strong>作家、编剧、记者、媒体人、内容创作者、自媒体... 表达能力强的领域都适合！✒️</li>
+                                <li><strong>教育培训相关：</strong>老师、培训师、讲师、教育顾问... <strong class="fire">食伤</strong>代表教育和表达。👨‍🏫</li>
+                                <li><strong>艺术/娱乐相关：</strong>音乐、表演、主持、摄影... 需要才华和表现力的领域！🎭</li>
+                            </ul>
+                        </li>
+                        <li><strong>你的工作模式：灵感迸发 💫：</strong>你适合那些能够自由发挥创意、不受太多约束的工作环境。灵感来了可以一鼓作气，但也需要注意持续性和执行力。</li>
+                        <li><strong>创新 or 表现？可以有！🌟：</strong><strong class="fire">食伤</strong>也代表创新和表现力！你有能力打破常规，提出新颖的想法，并且能够很好地表达出来，让别人理解和接受。</li>
+                    </ul>
+
+                    <h3>🤝 职场生存法则：创意需要落地!</h3>
+                    <p>记住！你<strong class="fire">火</strong>和<strong class="wood">木</strong>能量较旺，但<strong class="earth">土</strong>和<strong class="water">水</strong>偏弱，这意味着你有很多创意，但可能缺乏执行力和深度思考。必须学会"平衡"：</p>
+                    <ol>
+                        <li><strong>找个好"思想者" (用水💧印星)：</strong>
+                            <ul>
+                                <li><strong>学习！学习！再学习！</strong>不断提升专业知识和深度思考能力，让你的创意更有内涵和价值。</li>
+                                <li><strong>寻求导师指导！</strong>找到有经验、有智慧的导师或前辈，虚心请教，获得指导和提携，避免走弯路。</li>
+                            </ul>
+                        </li>
+                        <li><strong>组建"执行团队" (用土🧱财星)：</strong>
+                            <ul>
+                                <li><strong>找到执行高手！</strong>与擅长执行、落地的人合作，互补优势，让你的创意能够真正实现。</li>
+                                <li><strong>建立执行系统！</strong>学习项目管理、时间管理等实用技能，提高自己的执行力和落地能力。</li>
+                            </ul>
+                        </li>
+                        <li><strong>风险预警 🚨：</strong>创意多，但不一定都能实现！<strong class="fire">食伤</strong>旺容易有"眼高手低"的倾向，或者"三分钟热度"，开始很兴奋但半途而废。需要培养坚持和专注的能力，选择真正有价值的创意去执行。</li>
+                    </ol>
+
+                    <h3>💸 财富密码：才华变现！</h3>
+                    <ul>
+                        <li><strong>核心思路："才"能生"财"！🎨➡️💰：</strong>直接追着<strong class="earth">财（土）</strong>跑不是最佳选择，因为<strong class="earth">土</strong>在你的命盘中偏弱。聪明的做法是，把精力放在发挥<strong>才华、创意、表达能力 (<strong class="fire">食伤</strong>代表的领域)</strong> 上。当你的创意和才华得到认可，财富自然会随之而来！这叫"以才取财"。</li>
+                        <li><strong>财富来源：创意价值变现 💡：</strong>你的财富往往与你的创意和表达能力紧密相关。可能来自创意设计、内容创作、知识付费、IP授权等领域。通过打造个人品牌和影响力，提高你的作品和服务的价值。</li>
+                        <li><strong>理财原则：稳中求进！📈：</strong><strong class="earth">土</strong>偏弱，理财能力可能不是你的强项。建议寻求专业的理财建议，或者与擅长财务管理的人合作。避免冲动投资或过度消费，建立长期稳定的财务规划。</li>
+                        <li><strong>加分选项：选对行业属性 ✅：</strong>如果你的工作能和<strong class="favorable">水 (智慧、流通、服务)** 或 <strong class="favorable">土 (稳定、实用、管理)** 沾边，比如教育培训、文化传媒、设计咨询、内容创作等，那搞钱的过程会相对顺心，成果也会更丰硕！</li>
+                    </ul>
+                    <p><strong>✨ 总之：</strong>你的事业财运需要"才华变现"而非"硬拼"！善用创意，提升深度，加强执行，通过提供有价值的创意和服务来带动财富增长，是你的最佳路径！加油，创意达人！🚀</p>
+                </section>
+
+                <section id="health" class="content-section tab-pane" role="tabpanel">
+                    <h2>🩺 健康守护指南：你的身体需要这样呵护 ✨</h2>
+                    <p>身体是陪伴你闯荡世界的唯一"战车"！🚗 你的八字显示<strong class="fire">火</strong>和<strong class="wood">木</strong>能量较旺，而<strong class="water">水</strong>和<strong class="earth">土</strong>相对偏弱，这种"火木旺盛"的状态是健康关注的重点。别慌，这份专属养护指南请收好！👇</p>
+
+                    <h3>🚨 健康红灯区：这些部位要重点关注！</h3>
+                    <p>因为<strong class="fire">火</strong>和<strong class="wood">木</strong>能量较旺，而<strong class="water">水</strong>偏弱，以下系统容易拉响警报：</p>
+                    <ul>
+                        <li>
+                            <strong>❤️ 心脏系统 (火的地盘)：</strong>
+                            <ul>
+                                <li><strong>信号：</strong> 容易心跳加速、心悸、失眠、情绪波动大、面部潮红、口干舌燥。</li>
+                                <li><strong>病因：</strong> <strong class="fire">火</strong>能量过旺，而<strong class="water">水</strong>不足以制约它，导致心火过旺。</li>
+                                <li><strong>对策：</strong> 保持情绪稳定，避免过度兴奋或紧张，保证充足睡眠，适当补充水分。</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>👁️ 眼睛 (火也管眼睛)：</strong>
+                            <ul>
+                                <li><strong>信号：</strong> 眼睛容易疲劳、干涩、发红、视力波动。</li>
+                                <li><strong>病因：</strong> <strong class="fire">火</strong>旺容易上炎，而<strong class="water">水</strong>不足以滋润。</li>
+                                <li><strong>对策：</strong> 注意用眼卫生，定时休息，避免长时间盯着电子屏幕，多吃护眼食物。</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>🧠 神经系统 & 肝胆 (木也管这块)：</strong>
+                            <ul>
+                                <li><strong>信号：</strong> 容易紧张、焦虑、情绪波动大、肝火旺盛、头痛、肌肉紧张。</li>
+                                <li><strong>病因：</strong> <strong class="wood">木</strong>能量过旺，缺乏<strong class="water">水</strong>的滋润和<strong class="earth">土</strong>的制约。</li>
+                                <li><strong>对策：</strong> 学会放松，减少压力，保持情绪稳定，避免过度劳累。</li>
+                            </ul>
+                        </li>
+                         <li>
+                            <strong>🦴 肾脏与内分泌 (水的领域)：</strong>
+                            <ul>
+                                <li><strong>信号：</strong> 容易疲劳、腰膝酸软、耳鸣、脱发、记忆力下降。</li>
+                                <li><strong>病因：</strong> <strong class="water">水</strong>能量偏弱，不足以滋养身体和制约<strong class="fire">火</strong>。</li>
+                                <li><strong>对策：</strong> 保证充足休息，避免熬夜，补充水分，适当进行滋补。</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>🧱 脾胃系统 (土的能量也需关照)：</strong>
+                             <ul>
+                                <li><strong>信号：</strong> 消化不良、胃口不稳定、容易腹胀或腹泻。</li>
+                                <li><strong>病因：</strong> <strong class="earth">土</strong>的力量偏弱，不足以转化营养和支撑身体。</li>
+                                <li><strong>对策：</strong> 规律饮食，避免暴饮暴食，注意饮食卫生和营养均衡。</li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <h3>✅ 养生自救 Plan B：这样调理就对啦！</h3>
+                    <p>知道风险点，就要主动出击！核心思路：<strong class="favorable">补水</strong>来滋润身体，<strong class="favorable">固土</strong>来稳定脾胃，同时<strong class="unfavorable">泄火</strong>和<strong class="unfavorable">疏木</strong>来平衡过旺的能量。具体怎么做？</p>
+                    <ol>
+                        <li>
+                            <strong>吃对喝对，食疗优先 🥗：</strong>
+                            <ul>
+                                <li><strong>多亲近<strong class="favorable">水</strong>/黑色食物：</strong> 黑豆、黑芝麻、黑木耳、海带、蓝莓，滋养肾水，制约心火。</li>
+                                <li><strong>适当吃点<strong class="favorable">土</strong>/黄色食物：</strong> 南瓜、红薯、小米、玉米、土豆，健脾养胃，增强消化功能。</li>
+                                <li><strong>控制<strong class="unfavorable">火</strong>/红色食物：</strong> 少吃辛辣、油炸、烧烤食物，避免过度刺激，加重心火。</li>
+                                <li><strong>平衡<strong class="unfavorable">木</strong>的能量：</strong> 多吃柑橘类水果、醋、绿色蔬菜，帮助疏肝理气，平衡木气。</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>情绪疏导，心态要稳 😊：</strong>
+                            <ul>
+                                <li><strong>控制情绪波动：</strong> 学习情绪管理技巧，如深呼吸、冥想、正念练习，避免情绪大起大落。</li>
+                                <li><strong>培养平和心态：</strong> 不要过度追求刺激和兴奋，学会享受平静和安宁的时刻。</li>
+                                <li><strong>多运用<strong class="favorable">水</strong>的智慧：</strong> 深度思考，理性分析，避免冲动决策和行为。</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>动静皆宜，选对运动 🧘‍♀️：</strong>
+                            <ul>
+                                <li><strong>推荐：</strong> 游泳（<strong class="favorable">水</strong>能量满满）、太极、瑜伽、慢跑、散步，这些运动既能锻炼身体，又不会过度消耗能量。</li>
+                                <li><strong>谨慎：</strong> 高强度、高刺激的运动，如剧烈球类运动、极限运动等，容易加重<strong class="fire">火</strong>旺的状态。</li>
+                            </ul>
+                        </li>
+                         <li>
+                            <strong>环境助力，能量加持 ✨：</strong>
+                            <ul>
+                                <li><strong>常去的地方：</strong> 水边、公园、图书馆、博物馆，这些地方能帮助平静心情，增加<strong class="favorable">水</strong>的能量。</li>
+                                <li><strong>幸运色：</strong> 多穿戴<strong class="favorable">蓝色、黑色、黄色</strong>系的衣物饰品，减少红色和绿色的使用。</li>
+                                <li><strong>居住环境：</strong> 保持安静、整洁、通风，可以摆放一些水景或者蓝色装饰品。</li>
+                            </ul>
+                        </li>
+                         <li>
+                            <strong>规律作息，拒绝透支 😴：</strong>
+                             <ul>
+                                <li><strong>黄金睡眠时间：</strong> 晚上11点前入睡，保证7-8小时的充足睡眠，这是滋养<strong class="favorable">水</strong>能量的关键。</li>
+                                <li><strong>避免熬夜：</strong> 熬夜会严重伤害<strong class="favorable">水</strong>的能量，加重<strong class="fire">火</strong>旺的状态，导致各种健康问题。</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>定期体检，防微杜渐 ✅：</strong>
+                             <ul>
+                                <li>每年一次的体检不能省！特别是心脏、眼睛、肝胆、肾脏和消化系统方面。</li>
+                            </ul>
+                        </li>
+                    </ol>
+                    <p>记住，健康不是一蹴而就的，需要日积月累的呵护。从现在开始，好好爱自己吧！💖</p>
+                </section>
+
+                <section id="luck-cycle" class="content-section tab-pane" role="tabpanel">
+                    <h2>📅 大运流年：把握人生的节奏 ⏳</h2>
+                    <h3>人生总趋势分析</h3>
+                    <p>你的人生旅程就像一场精彩的冒险，不同的"大运"如同不同的章节，带来不同的风景和挑战。整体来看：</p>
+                    <ul>
+                        <li><strong>早年 (约3-22岁，癸未、壬午运)：</strong> 带着<strong class="favorable">水(印星)</strong>的力量，学习能力不错，能得到长辈的关照和智慧的启发。虽然<strong class="fire">火(食伤)</strong>开始显现才华，但也伴随着一些小叛逆和环境变化。</li>
+                        <li><strong>中青年 (约23-42岁，辛巳、庚辰运)：</strong> 这是<strong class="unfavorable">金(官杀)</strong>力量强盛的时期，事业压力显著增大，挑战与机遇并存。特别是33-42岁的<strong class="unfavorable">庚辰</strong>运，七杀攻身，是人生重要的关口和历练期，需要运用智慧(<strong class="favorable">水</strong>)和人脉(<strong class="favorable">木</strong>)谨慎应对，防范风险，是事业打拼的关键时期，但也容易身心俱疲。</li>
+                        <li><strong>中年后期 (约43-62岁，己卯、戊寅运)：</strong> 运势转向<strong class="favorable">木(比劫)</strong>旺地，自身力量得到增强！<strong class="favorable">木</strong>能帮你分担压力，带来更多合作机会和人脉支持。虽然<strong class="unfavorable">土(财星)</strong>透出可能带来求财的欲望和压力，但总体趋势向好，是发展和积累的好时机。</li>
+                        <li><strong>晚年 (约63岁后，丁丑、丙子运)：</strong> 运势带有<strong class="useful">火(食伤)</strong>和<strong class="favorable">水(印星)</strong>。晚年生活相对平稳一些，可以享受生活，发挥余热，但也需注意健康保养。</li>
+                    </ul>
+                    <p><strong>请注意：</strong>大运提供的是一个十年的宏观环境趋势，流年则是每年具体的事件催化剂。将两者结合，才能更细致地把握人生节奏。下面的表格提供了更详细的信息（鼠标悬浮查看）：</p>
+
+                    <h3>大运流年详解表</h3>
+                    <div class="tooltip" id="luck-tooltip"></div>
+                    <div class="table-container">
+                        <table class="luck-cycle-table">
+                            <thead>
+                                <tr>
+                                    <th>大运</th>
+                                    <th>流年</th>
+                                    <th>流年</th>
+                                    <th>流年</th>
+                                    <th>流年</th>
+                                    <th>流年</th>
+                                    <th>流年</th>
+                                    <th>流年</th>
+                                    <th>流年</th>
+                                    <th>流年</th>
+                                    <th>流年</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td data-tooltip="癸未大运 (3-12岁, 1987-1996): 正印坐杂气财库。早年得长辈关爱，学习不错。但未冲丑(年柱)，家庭环境或自身内心想法变动较多，财星搅局，非一帆风顺。打基础阶段。"><strong>癸未</strong><br>(1987-96)<br>Age 3-12</td>
+                                    <td data-tooltip="1987 丁卯: 伤官配劫财。聪明外露，精力旺，不服管，小伙伴多，易争强好胜。卯未半合木（喜），有玩伴支持。注意小意外。">1987年<br>丁卯<br>3岁<span class="luck-rating rating-positive">+2</span></td>
+                                    <td data-tooltip="1988 戊辰: 双偏财。对新鲜事物好奇，零花钱可能增多？辰土加重忌神土的力量，土多金埋，有点小固执，注意脾胃消化。">1988年<br>戊辰<br>4岁<span class="luck-rating rating-negative">-1</span></td>
+                                    <td data-tooltip="1989 己巳: 正财配食神。开始懂事理财，有点小才艺。巳丑半合金（忌），增加压力源；巳午未三会火（闲神）方，想法多，精力外放。">1989年<br>己巳<br>5岁<span class="luck-rating rating-negative">-2</span></td>
+                                    <td data-tooltip="1990 庚午: 七杀坐伤官。压力初显，调皮好动，易与人冲突，防小伤小病。午未合土（忌），午火桃花被合，人缘好但易带来小烦恼。">1990年<br>庚午<br>6岁<span class="luck-rating rating-negative">-2</span></td>
+                                    <td data-tooltip="1991 辛未: 正官配正财。学规矩，表现乖巧。但未土伏吟（冲年丑），内心想法多变，环境变动或长辈事多，情绪不稳定。">1991年<br>辛未<br>7岁<span class="luck-rating rating-negative">-1</span></td>
+                                    <td data-tooltip="1992 壬申: 偏印坐七杀。想法偏多，略固执，学业或健康感压力。申金七杀到位（月日），开始感受到环境的挑战。好在有癸水大运化杀。">1992年<br>壬申<br>8岁<span class="luck-rating rating-positive">+1</span></td>
+                                    <td data-tooltip="1993 癸酉: 正印坐正官。学习状态佳，得老师长辈喜爱。酉丑半合金（忌），压力暗增；巳酉丑三合金局，忌神力量强，需防范。印星透出可化解部分。">1993年<br>癸酉<br>9岁<span class="luck-rating rating-negative">-4</span></td>
+                                    <td data-tooltip="1994 甲戌: 比肩坐偏财。朋友多，花钱大方或破耗。戌未刑，内心易纠结，或有小矛盾是非，注意肠胃。">1994年<br>甲戌<br>10岁<span class="luck-rating rating-negative">-1</span></td>
+                                    <td data-tooltip="1995 乙亥: 劫财坐偏印。好胜心强，想法独特。亥卯未三合木局（喜用神），自身力量大增，精力旺盛，利学习交友。但劫财也易破财。"><span class="year-icon lucky-year-icon">⭐</span>1995年<br>乙亥<br>11岁<span class="luck-rating rating-positive">+5</span></td>
+                                    <td data-tooltip="1996 丙子: 食神坐正印。聪明伶俐，学习好，受喜爱。子水桃花，人缘佳。但子未相害，易有暗中小人或不顺心事。">1996年<br>丙子<br>12岁<span class="luck-rating rating-neutral">0</span></td>
+                                </tr>
+                                 <tr>
+                                    <td data-tooltip="壬午大运 (13-22岁, 1997-2006): 偏印坐伤官。想法多且跳脱，才华显露但也易叛逆冲动。午未合土（忌），伤官被合，才华受牵制，内心想法与环境有合。青春探索，心性不定。"><strong>壬午</strong><br>(1997-06)<br>Age 13-22</td>
+                                    <td data-tooltip="1997 丁丑: 伤官配正财。追求新鲜，花钱想法多。丑午相害，易犯口舌或不顺心；丑未冲，环境内部有变动。">1997年<br>丁丑<br>13岁<span class="luck-rating rating-negative">-2</span></td>
+                                    <td data-tooltip="1998 戊寅: 偏财配比肩。社交活跃，花费增多。寅木助身（喜），精力充沛。寅午半合火（闲），寅亥合木（喜），想法和行动力增强。">1998年<br>戊寅<br>14岁<span class="luck-rating rating-positive">+3</span></td>
+                                    <td data-tooltip="1999 己卯: 正财配劫财。想赚钱但易为朋友花钱。卯木桃花（喜），异性缘佳但防竞争破财。卯未半合木（喜）。">1999年<br>己卯<br>15岁<span class="luck-rating rating-positive">+1</span></td>
+                                    <td data-tooltip="2000 庚辰: 七杀配偏财。学业/生活压力增大，目标感增强，为财辛苦。辰土为水库助印，有解压途径。申子辰三合水局（喜），学业或想法有突破。\"><span class=\"year-icon lucky-year-icon\">⭐</span>2000年<br>庚辰<br>16岁<span class="luck-rating rating-positive">+5</span></td>
+                                    <td data-tooltip="2001 辛巳: 正官配食神。遵守规则与发挥才华并存。巳申合水（喜！），才华转化为智慧助力；巳酉丑三合金（忌），规则带来压力。吉凶参半。\"><span class=\"year-icon lucky-year-icon\">⭐</span>2001年<br>辛巳<br>17岁<span class="luck-rating rating-neutral">0</span></td>
+                                    <td data-tooltip="2002 壬午: 偏印配伤官。大运流年伏吟，想法极端，才华横溢或情绪波动巨大，易冲动。午午自刑，内心纠结加剧。">2002年<br>壬午<br>18岁<span class="luck-rating rating-negative">-3</span></td>
+                                    <td data-tooltip="2003 癸未: 正印配正财。学业顺利，财运稳定。未土伏吟（冲年丑，合大运午），内心想法与环境变动交织，情绪反复。">2003年<br>癸未<br>19岁<span class="luck-rating rating-negative">-1</span></td>
+                                    <td data-tooltip="2004 甲申: 比肩配七杀。朋友/同学合作或竞争中应对压力。申金伏吟（月日），压力显著，人际关系或自身状态重大变化。申子辰三合水（喜），有化解之道。">2004年<br>甲申<br>20岁<span class="luck-rating rating-neutral">0</span></td>
+                                    <td data-tooltip="2005 乙酉: 劫财配正官。面临规则约束下的竞争，防朋友坑。酉金桃花（忌），注意感情纠纷或烂桃花。巳酉丑三合金（忌），压力增大。">2005年<br>乙酉<br>21岁<span class="luck-rating rating-negative">-4</span></td>
+                                    <td data-tooltip="2006 丙戌: 食神配偏财。展现才华，追求财富。戌未刑，内心矛盾，注意肠胃。寅午戌三合火（闲），精力外放，想法多。">2006年<br>丙戌<br>22岁<span class="luck-rating rating-neutral">0</span></td>
+                                </tr>
+                                <tr>
+                                    <td data-tooltip="辛巳大运 (23-32岁, 2007-2016): 正官坐食神。事业压力与规则增多，食神带来展现才华机会但也耗身。巳申合水（喜！），暗有印星化官生身，压力中藏机遇。事业起步摸索，挑战与进步并存。"><strong>辛巳</strong><br>(2007-16)<br>Age 23-32</td>
+                                    <td data-tooltip="2007 丁亥: 伤官见官！易有口舌是非、工作不稳、与上司冲突。亥水冲巳（大运根），环境或工作变动大，但也带印星解围。亥卯未三合木（喜），有人支持。">2007年<br>丁亥<br>23岁<span class="luck-rating rating-positive">+1</span></td>
+                                    <td data-tooltip="2008 戊子: 偏财配正印。求财与学习并存，或为房产花钱。子水桃花（喜），感情机遇或贵人。子午冲（时柱），子未害（年柱），内心想法与现实冲突，注意长辈健康。">2008年<br>戊子<br>24岁<span class="luck-rating rating-positive">+1</span></td>
+                                    <td data-tooltip="2009 己丑: 正财配正财。财运稳定但辛苦。丑土合动年柱子水（绊住喜神），引动巳酉丑三合金（忌），财来财去，压力增大。">2009年<br>己丑<br>25岁<span class="luck-rating rating-negative">-3</span></td>
+                                    <td data-tooltip="2010 庚寅: 七杀配比肩。工作压力巨大！幸有寅木比肩助身分担。但寅巳申三刑！是非官非、人际纠纷、交通意外风险高！需极度谨慎！\"><span class=\"year-icon danger-year-icon\"><span class="danger-icon">⚡</span></span>2010年<br>庚寅<br>26岁<span class="luck-rating rating-negative">-5</span></td>
+                                    <td data-tooltip="2011 辛卯: 正官配劫财。事业规范下有竞争，或因同事朋友破财。卯木桃花（喜），人缘佳，但防感情或金钱纠纷。">2011年<br>辛卯<br>27岁<span class="luck-rating rating-positive">+1</span></td>
+                                    <td data-tooltip="2012 壬辰: 偏印配偏财。想法独特利偏门财或深入学习。辰土晦火（大运食神），才华受阻。申子辰三合水（喜），智慧提升，有解困之道。\"><span class=\"year-icon lucky-year-icon\">⭐</span>2012年<br>壬辰<br>28岁<span class="luck-rating rating-positive">+4</span></td>
+                                    <td data-tooltip="2013 癸巳: 正印配食神。大运流年伏吟（巳），才华智慧并用，思虑多。巳申合水（喜），巳酉丑合金（忌），吉凶交织，看水火力。\"><span class=\"year-icon lucky-year-icon\">⭐</span>2013年<br>癸巳<br>29岁<span class="luck-rating rating-positive">+2</span></td>
+                                    <td data-tooltip="2014 甲午: 比肩配伤官。与朋友合作或竞争中展现才华。午火桃花，人缘佳。午午自刑，内心纠结，易冲动。">2014年<br>甲午<br>30岁<span class="luck-rating rating-neutral">0</span></td>
+                                    <td data-tooltip="2015 乙未: 劫财配正财。易因朋友或竞争破财。未土合午（时支），冲丑（年支），害子（时支），内部环境变动，情绪不稳。">2015年<br>乙未<br>31岁<span class="luck-rating rating-negative">-2</span></td>
+                                    <td data-tooltip="2016 丙申: 食神配七杀。用才华能力应对压力。申金七杀到位伏吟（月日），压力巨大！巳申合水（喜），丙辛合水（喜），化解有力！变动虽大但有机会转化。\"><span class=\"year-icon lucky-year-icon\">⭐</span>2016年<br>丙申<br>32岁<span class="luck-rating rating-positive">+4</span></td>
+                                </tr>
+                                <tr>
+                                    <td data-tooltip="庚辰大运 (33-42岁, 2017-2026): 七杀坐偏财。人生压力顶峰期！庚金七杀强力攻身，辰土偏财滋杀更增负担。挑战极多，事业、健康、人际关口。好在申辰拱水(印)，总有智慧或贵人暗中缓解。需谨言慎行，稳中求存。"><strong>庚辰</strong><br>(2017-26)<br>Age 33-42</td>
+                                    <td data-tooltip="2017 丁酉: 伤官见官！是非口舌、工作变动、官非风险高！酉金桃花（忌），感情易生变或遇烂桃花。酉辰合金（忌），酉丑半合金（忌），忌神力量强旺，压力山大！\"><span class=\"year-icon danger-year-icon\"><span class="danger-icon">⚡</span></span>2017年<br>丁酉<br>33岁<span class="luck-rating rating-negative">-5</span></td>
+                                    <td data-tooltip="2018 戊戌: 双偏财，辰戌冲！财库冲开，求财欲强，但花费巨大或财运剧烈波动！土旺埋金克水，压力沉重，注意脾胃健康，防投资失利。\"><span class=\"year-icon danger-year-icon\"><span class="danger-icon">⚡</span></span>2018年<br>戊戌<br>34岁<span class="luck-rating rating-negative">-5</span></td>
+                                    <td data-tooltip="2019 己亥: 正财配偏印。辛苦求财，想法独特。亥卯未三合木（喜），暗有助力。但亥冲巳（大运根），环境变动仍存。财坏印，防因小失大。">2019年<br>己亥<br>35岁<span class="luck-rating rating-positive">+1</span></td>
+                                    <td data-tooltip="2020 庚子: 双七杀攻身！压力MAX！幸有子水正印（喜）贴身化杀！关键年！需靠智慧、学习、贵人化解。子午冲（时柱），子未害（年柱），注意健康、子女、长辈事宜。\"><span class=\"year-icon danger-year-icon\"><span class="danger-icon">⚡</span></span><span class=\"year-icon lucky-year-icon\">⭐</span>2020年<br>庚子<br>36岁<span class="luck-rating rating-neutral">0</span></td>
+                                    <td data-tooltip="2021 辛丑: 正官配正财。官杀混杂（大运庚杀，流年辛官），事业压力仍在但稍缓和。丑未冲，丑午害，丑土合绊子水（喜神），内心不宁，进展缓慢。">2021年<br>辛丑<br>37岁<span class="luck-rating rating-negative">-3</span></td>
+                                    <td data-tooltip="2022 壬寅: 偏印配比肩。寅木强根助身（喜）！运用智慧与朋友合作应对压力。但寅申冲（月日柱）！冲击婚姻宫、事业宫、自身，变动剧烈！注意人际、出行、肢体受伤！\"><span class=\"year-icon danger-year-icon\"><span class="danger-icon">⚡</span></span>2022年<br>壬寅<br>38岁<span class="luck-rating rating-negative">-4</span></td>
+                                    <td data-tooltip="2023 癸卯: 正印配劫财。贵人助力，朋友帮忙分担压力（卯木喜神）。但劫财也易破财。卯酉冲（若有），卯辰害（大运），卯午破（时柱），需防感情竞争、合作不顺。">2023年<br>癸卯<br>39岁<span class="luck-rating rating-positive">+1</span></td>
+                                    <td data-tooltip="2024 甲辰: 比肩配偏财。与朋友合作求财或竞争。辰土伏吟（大运），土重压力大，财运波动，想法多变。申子辰三合水（喜），有解压途径。">2024年<br>甲辰<br>40岁<span class="luck-rating rating-positive">+1</span></td>
+                                    <td data-tooltip="2025 乙巳: 劫财配食神。乙庚合（流年合大运），合作象但增压力。巳申合水（喜！），才华智慧化解压力关键！巳酉丑三合金（忌），需防小人竞争破财。吉凶参半，重在转化。\"><span class=\"year-icon lucky-year-icon\">⭐</span>2025年<br>乙巳<br>41岁<span class="luck-rating rating-positive">+2</span></td>
+                                    <td data-tooltip="2026 丙午: 食神配伤官。食伤混杂，才华尽显，想法极活跃，但也易冲动言行。午午自刑，内心纠结加剧。寅午戌三合火（闲），火力旺可制金减压，但防泄身太过。">2026年<br>丙午<br>42岁<span class="luck-rating rating-neutral">0</span></td>
+                                </tr>
+                                 <tr>
+                                    <td data-tooltip="己卯大运 (43-52岁, 2027-2036): 正财坐劫财（喜用神！）。甲己合土，财星合身，财运趋稳或有情缘。卯木帝旺强根帮身，自身力量大增！利合作发展，心态积极。木旺克土，需注意脾胃及理财。好运开启！"><strong>己卯</strong><br>(2027-36)<br>Age 43-52</td>
+                                    <td data-tooltip="2027 丁未: 伤官生财。利赚钱投资，但伤官特性易冲动消费。卯未半合木（喜），未土合动时支午，内心想法多，行动力强。">2027年<br>丁未<br>43岁<span class="luck-rating rating-positive">+2</span></td>
+                                    <td data-tooltip="2028 戊申: 偏财配七杀。求大财但压力随之而来。申金七杀（忌）出现，事业挑战仍在。但大运木旺，自身能担。申卯暗合。\"><span class=\"year-icon danger-year-icon\"><span class="danger-icon">⚡</span></span>2028年<br>戊申<br>44岁<span class="luck-rating rating-negative">-2</span></td>
+                                    <td data-tooltip="2029 己酉: 正财配正官。财官相生，事业稳定顺遂，利求职加薪。但酉金桃花（忌）冲克卯木（大运根基）！注意感情纠纷、合作破裂、健康（肝胆/肢体）。\"><span class=\"year-icon danger-year-icon\"><span class="danger-icon">⚡</span></span>2029年<br>己酉<br>45岁<span class="luck-rating rating-negative">-4</span></td>
+                                    <td data-tooltip="2030 庚戌: 七杀配偏财。事业压力重现，求财辛苦。戌土合卯（大运桃花），有情缘或合作机会，但也易生矛盾。戌未刑，防肠胃、皮肤问题。">2030年<br>庚戌<br>46岁<span class="luck-rating rating-negative">-1</span></td>
+                                    <td data-tooltip="2031 辛亥: 正官配偏印。事业规范下运用智慧。亥卯未三合木局（喜用神）！自身力量极强！大利拓展、合作、提升！但也防过于主观固执。\"><span class=\"year-icon lucky-year-icon\">⭐</span>2031年<br>辛亥<br>47岁<span class="luck-rating rating-positive">+5</span></td>
+                                    <td data-tooltip="2032 壬子: 偏印配正印。印星（喜）旺盛！智慧涌现，学习、思考、得贵人助极佳！但水多木漂，防想法过多不落实，需加强行动力。子卯刑，子午冲，注意礼仪、子女关系。\"><span class=\"year-icon lucky-year-icon\">⭐</span>2032年<br>壬子<br>48岁<span class="luck-rating rating-positive">+4</span></td>
+                                    <td data-tooltip="2033 癸丑: 正印配正财。贵人助力求财。丑土湿土合绊子水，晦火克金，有稳定之象但也略显沉闷。丑未冲，环境仍有小变动。">2033年<br>癸丑<br>49岁<span class="luck-rating rating-neutral">0</span></td>
+                                    <td data-tooltip="2034 甲寅: 双比肩（喜）！朋友同事助力强大，合作机会多，充满力量！但也易固执己见，注意沟通方式。寅申冲，防出行、投资、关系变动。">2034年<br>甲寅<br>50岁<span class="luck-rating rating-positive">+2</span></td>
+                                    <td data-tooltip="2035 乙卯: 双劫财（喜）！大运流年劫财重叠，自身力量和竞争性达到顶点！利开拓市场、团队作战。但需防破财、小人、感情竞争！花销巨大！\"><span class=\"year-icon danger-year-icon\"><span class="danger-icon">⚡</span></span>2035年<br>乙卯<br>51岁<span class="luck-rating rating-positive">+1</span></td>
+                                    <td data-tooltip="2036 丙辰: 食神配偏财。发挥才华求财，财运不错。辰土为财库且为湿土，能生金也能养木，相对平稳。">2036年<br>丙辰<br>52岁<span class="luck-rating rating-positive">+2</span></td>
+                                </tr>
+                                 <tr>
+                                    <td data-tooltip="戊寅大运 (53-62岁, 2037-2046): 偏财坐比肩（喜用神！）。戊癸合（年干），财合印，利学习、房产、名誉。寅木禄神强根助身，自身状态佳，精力旺。寅申冲（月日柱），生活变动仍多，冲击婚姻宫事业宫，需注意健康、关系维护、出行安全。"><strong>戊寅</strong><br>(2037-46)<br>Age 53-62</td>
+                                    <td data-tooltip="2037 丁巳: 伤官配食神。食伤混杂，想法多变，口才佳，利表达创作，但也易惹是非。巳申刑合水（喜），寅巳刑，是非中带机遇。">2037年<br>丁巳<br>53岁<span class="luck-rating rating-positive">+1</span></td>
+                                    <td data-tooltip="2038 戊午: 双偏财坐伤官。追求财富享乐欲强，花销大。午火桃花，人缘好。寅午半合火（助伤官），精力外放，注意节制。">2038年<br>戊午<br>54岁<span class="luck-rating rating-neutral">0</span></td>
+                                    <td data-tooltip="2039 己未: 正财配正财。财运稳定，生活安逸。未土燥土，合午绊卯，注意健康（脾胃、皮肤），防财多身弱。">2039年<br>己未<br>55岁<span class="luck-rating rating-negative">-1</span></td>
+                                    <td data-tooltip="2040 庚申: 双七杀攻身！人生又一重大关口！压力、疾病、意外风险极高！寅申冲（大运冲月日），冲击猛烈！必须保守谨慎，安全健康第一！\"><span class=\"year-icon danger-year-icon\"><span class="danger-icon">⚡</span></span>2040年<br>庚申<br>56岁<span class="luck-rating rating-negative">-5</span></td>
+                                    <td data-tooltip="2041 辛酉: 正官配正官。官杀混杂，事业压力规范仍在。酉金桃花（忌）冲克卯（年支根），克寅（大运根），注意健康、合作关系破裂、名誉受损。\"><span class=\"year-icon danger-year-icon\"><span class="danger-icon">⚡</span></span>2041年<br>辛酉<br>57岁<span class="luck-rating rating-negative">-5</span></td>
+                                    <td data-tooltip="2042 壬戌: 偏印配偏财。运用智慧求偏财。寅午戌三合火局（食伤局），才华显露，想法多，利创作或投资，但火旺耗身，防过劳。\"><span class=\"year-icon lucky-year-icon\">⭐</span>2042年<br>壬戌<br>58岁<span class="luck-rating rating-positive">+3</span></td>
+                                    <td data-tooltip="2043 癸亥: 正印配偏印。印星（喜）混杂，想法多，利学习思考，但易犹豫不决。亥卯未三合木（喜），亥寅合木（喜），贵人助力强，自身能量足。\"><span class=\"year-icon lucky-year-icon\">⭐</span>2043年<br>癸亥<br>59岁<span class="luck-rating rating-positive">+5</span></td>
+                                    <td data-tooltip="2044 甲子: 比肩配正印。朋友相助，学习有利。子水桃花（喜），人缘感情佳。子卯刑，子午冲，子未害，关系中易有小摩擦。">2044年<br>甲子<br>60岁<span class="luck-rating rating-positive">+2</span></td>
+                                    <td data-tooltip="2045 乙丑: 劫财配正财。防因朋友、合作破财。丑土合绊子水，晦火克金，有利有弊，趋于稳定但失活力。丑未冲，注意旧疾。">2045年<br>乙丑<br>61岁<span class="luck-rating rating-neutral">0</span></td>
+                                    <td data-tooltip="2046 丙寅: 食神配比肩。大运流年伏吟（寅），禄神重见，精力旺盛。与朋友合作发挥才华。寅申冲仍在，变动与冲击持续。">2046年<br>丙寅<br>62岁<span class="luck-rating rating-positive">+1</span></td>
+                                </tr>
+                                 <tr>
+                                    <td data-tooltip="丁丑大运 (63-72岁, 2047-2056): 伤官坐正财。晚年仍有才思展现，或为子女操心。丑土财库稳定。火土相生，流通尚可。需注意心血管及脾胃健康。相对平稳时期。"><strong>丁丑</strong><br>(2047-56)<br>Age 63-72</td>
+                                    <td data-tooltip="2047 丁卯: 伤官配劫财。发挥余热，社交活跃，但防口舌是非或因他人破耗。卯木桃花。">2047年<br>丁卯<br>63岁<span class="luck-rating rating-neutral">0</span></td>
+                                    <td data-tooltip="2048 戊辰: 偏财配偏财。晚年财运或有不错机会，但也易波动。注意健康投资。">2048年<br>戊辰<br>64岁<span class="luck-rating rating-neutral">0</span></td>
+                                    <td data-tooltip="2049 己巳: 正财配食神。生活安逸，享受口福。巳酉丑三合金（忌），仍需留意旧疾或压力。">2049年<br>己巳<br>65岁<span class="luck-rating rating-negative">-2</span></td>
+                                    <td data-tooltip="2050 庚午: 七杀配伤官。健康压力增大！防意外、心血管问题。午午自刑，午丑害，内心纠结，易上火。\"><span class=\"year-icon danger-year-icon\"><span class="danger-icon">⚡</span></span>2050年<br>庚午<br>66岁<span class="luck-rating rating-negative">-4</span></td>
+                                    <td data-tooltip="2051 辛未: 正官配正财。生活规律，内心平稳。但丑未冲（大运冲流年），环境变动或健康（脾胃）反复。">2051年<br>辛未<br>67岁<span class="luck-rating rating-negative">-1</span></td>
+                                    <td data-tooltip="2052 壬申: 偏印配七杀。想法多，易多思多虑。申金七杀（忌）仍有力量，注意健康、出行。">2052年<br>壬申<br>68岁<span class="luck-rating rating-negative">-2</span></td>
+                                    <td data-tooltip="2053 癸酉: 正印配正官。心态平和，生活规律，精神状态佳。巳酉丑三合金（忌），健康方面仍需注意。\"><span class=\"year-icon lucky-year-icon\">⭐</span>2053年<br>癸酉<br>69岁<span class="luck-rating rating-positive">+2</span></td>
+                                    <td data-tooltip="2054 甲戌: 比肩配偏财。老友相聚，或有晚辈助力。戌未刑，戌丑刑，注意肠胃、筋骨。">2054年<br>甲戌<br>70岁<span class="luck-rating rating-negative">-1</span></td>
+                                    <td data-tooltip="2055 乙亥: 劫财配偏印。注意人际关系维护，防受骗或破耗。亥卯未三合木（喜），身体尚可。">2055年<br>乙亥<br>71岁<span class="luck-rating rating-positive">+2</span></td>
+                                    <td data-tooltip="2056 丙子: 食神配正印。享受生活，心态乐观。子水桃花（喜）。子丑合，内心安稳。\"><span class=\"year-icon lucky-year-icon\">⭐</span>2056年<br>丙子<br>72岁<span class="luck-rating rating-positive">+4</span></td>
+                                </tr>
+                                 <tr>
+                                    <td data-tooltip="丙子大运 (73-82岁, 2057-2066): 食神坐正印（喜用神！）。晚年心态乐观，享受生活，精神满足。子水印星滋身有力。水火既济，晚景安康。需注意心血管健康。"><strong>丙子</strong><br>(2057-66)<br>Age 73-82</td>
+                                    <td data-tooltip="2057 丁丑: 伤官配正财。发挥余热，生活稳定。丑土合绊子水（大运根），稍有不畅。">2057年<br>丁丑<br>73岁<span class="luck-rating rating-neutral">0</span></td>
+                                    <td data-tooltip="2058 戊寅: 偏财配比肩。注意理财，防大额支出。寅木助身，但寅申冲仍在，防旧疾复发或意外。">2058年<br>戊寅<br>74岁<span class="luck-rating rating-neutral">0</span></td>
+                                    <td data-tooltip="2059 己卯: 正财配劫财。财务稳定，但防因人破耗。卯木桃花。">2059年<br>己卯<br>75岁<span class="luck-rating rating-neutral">0</span></td>
+                                    <td data-tooltip="2060 庚辰: 七杀配偏财。健康压力增大！务必注意保养！辰土晦火生金，加重负担。申子辰三合水可稍作缓解。\"><span class=\"year-icon danger-year-icon\"><span class="danger-icon">⚡</span></span>2060年<br>庚辰<br>76岁<span class="luck-rating rating-negative">-4</span></td>
+                                    <td data-tooltip="2061 辛巳: 正官配食神。生活规律，心态平和。巳申合水（喜），巳酉丑合金（忌），健康仍需留意。">2061年<br>辛巳<br>77岁<span class="luck-rating rating-neutral">0</span></td>
+                                    <td data-tooltip="2062 壬午: 偏印配伤官。想法多，注意情绪。子午冲（冲大运根），健康、心情波动大，防心血管问题。">2062年<br>壬午<br>78岁<span class="luck-rating rating-negative">-2</span></td>
+                                    <td data-tooltip="2063 癸未: 正印配正财。心态平和，生活安稳。但未害子（大运根），未冲丑，仍有小烦恼。\"><span class=\"year-icon lucky-year-icon\">⭐</span>2063年<br>癸未<br>79岁<span class="luck-rating rating-positive">+1</span></td>
+                                    <td data-tooltip="2064 甲申: 比肩配七杀。健康第一！防意外、旧疾。申金七杀伏吟，又引动原局月日。申子辰三合水稍解。\"><span class=\"year-icon danger-year-icon\"><span class="danger-icon">⚡</span></span>2064年<br>甲申<br>80岁<span class="luck-rating rating-negative">-4</span></td>
+                                    <td data-tooltip="2065 乙酉: 劫财配正官。人际关系需维护，生活规律。酉金桃花（忌）。">2065年<br>乙酉<br>81岁<span class="luck-rating rating-negative">-2</span></td>
+                                    <td data-tooltip="2066 丙戌: 食神配偏财。享受生活，心态乐观。戌土克子水（大运根），略有不美。">2066年<br>丙戌<br>82岁<span class="luck-rating rating-neutral">0</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="luck-rating-legend">
+                        <p><strong>流年能量等级说明：</strong></p>
+                        <span class="luck-rating rating-positive">+5</span> ~ <span class="luck-rating rating-positive">+1</span>: 运势较佳，机遇较多，顺风顺水。
+                        <span class="luck-rating rating-neutral">0</span>: 运势平稳，无大起大落。
+                        <span class="luck-rating rating-negative">-1</span> ~ <span class="luck-rating rating-negative">-5</span>: 挑战增多，压力较大，需谨慎应对。
+                        <span class="luck-rating rating-negative" style="margin-left: 10px;">-5</span> 表示挑战最大，<span class="luck-rating rating-positive">+5</span> 表示机遇最佳。
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
